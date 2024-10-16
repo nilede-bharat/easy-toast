@@ -2,7 +2,7 @@
     "name": "nilede-bharat/easy-toast",
     "description": "Easy backend make toast notification for laravel+vue",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "autoload": {
         "psr-4": {
             "Bharat\\EasyToast\\": "src/"
