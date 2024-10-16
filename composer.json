@@ -1,7 +1,8 @@
 {
     "name": "nilede-bharat/easy-toast",
     "description": "Easy backend make toast notification for laravel+vue",
-    "type": "project",
+    "type": "library",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Bharat\\EasyToast\\": "src/"
@@ -12,6 +13,13 @@
             "Bharat\\EasyToast\\": "src/"
         }
     },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "laravel/framework": "^8.0 || ^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
@@ -21,4 +29,3 @@
         }
     ]
 }
-
