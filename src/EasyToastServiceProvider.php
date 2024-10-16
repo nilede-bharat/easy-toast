@@ -1,6 +1,7 @@
 <?php
 
-namespace EasyToast;
+
+namespace Bharat\EasyToast;
 
 use Illuminate\Support\ServiceProvider;
 

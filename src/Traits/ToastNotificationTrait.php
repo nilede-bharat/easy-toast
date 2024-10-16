@@ -1,7 +1,7 @@
 <?php
 
 
-namespace EasyToast\Traits;
+namespace Bharat\EasyToast\Traits;
 
 
 use Illuminate\Support\Facades\Session;
