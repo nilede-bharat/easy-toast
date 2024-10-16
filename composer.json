@@ -1,0 +1,24 @@
+{
+    "name": "bharat/easy-toast",
+    "description": "Easy backend make toast notification for laravel+vue",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "EasyToast\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasyToast\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nilede-bharat/easy-toast"
+        }
+    ]
+}
+
