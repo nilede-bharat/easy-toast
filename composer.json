@@ -4,12 +4,12 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "EasyToast\\": "src/"
+            "Bharat\\EasyToast\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EasyToast\\": "src/"
+            "Bharat\\EasyToast\\": "src/"
         }
     },
     "minimum-stability": "dev",
