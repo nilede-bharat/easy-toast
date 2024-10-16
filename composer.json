@@ -1,5 +1,5 @@
 {
-    "name": "bharat/easy-toast",
+    "name": "nilede-bharat/easy-toast",
     "description": "Easy backend make toast notification for laravel+vue",
     "type": "project",
     "autoload": {
