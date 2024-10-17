@@ -1,31 +1,38 @@
 {
-    "name": "nilede-bharat/easy-toast",
-    "description": "Easy backend make toast notification for laravel+vue",
-    "type": "library",
-    "version": "1.0.5",
-    "autoload": {
-        "psr-4": {
-            "Bharat\\EasyToast\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Bharat\\EasyToast\\": "src/"
-        }
-    },
-    "require": {
-        "php": "*",
-        "laravel/framework": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nilede-bharat/easy-toast"
-        }
-    ]
+  "name": "nilede-bharat/easy-toast",
+  "description": "Easy backend make toast notification for laravel+vue",
+  "type": "library",
+  "version": "1.0.6",
+  "autoload": {
+    "psr-4": {
+      "Bharat\\EasyToast\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bharat\\EasyToast\\": "src/"
+    }
+  },
+  "require": {
+    "php": "*",
+    "laravel/framework": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/nilede-bharat/easy-toast"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bharat\\EasyToast\\EasyToastServiceProvider"
+      ]
+    }
+  }
 }
