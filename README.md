@@ -114,11 +114,11 @@ class AdmissionController extends Controller
         $this->warning('message');
         
         // OR
-        return redirect()->back()->with('success','message')
+        return redirect()->back()->with('success','message');
         // OR
-        return redirect()->back()->with('error','message')
+        return redirect()->back()->with('error','message');
         // OR
-        return redirect()->back()->with('message','message')
+        return redirect()->back()->with('message','message');
     }
 }
 ```
