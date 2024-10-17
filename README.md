@@ -18,24 +18,14 @@ composer require nilede-bharat/easy-toast --ignore-platform-reqs
 
 ## Configuration
 
-1.register service provider config/app.php
-
-```php
-
-    'providers' => [
-    
-        Bharat\EasyToast\EasyToastServiceProvider::class,
-        
-    ]
-```
-2.publish ToastNotification Component file
+1.publish ToastNotification Component file
 
 ```bash
 php artisan vendor:publish --tag=Bharat\EasyToast\EasyToastServiceProvider
 ```
 
 
-3.Register notification in HandleInertiaRequests  App\Http\Middleware\HandleInertiaRequests
+2.Register notification in HandleInertiaRequests  App\Http\Middleware\HandleInertiaRequests
 
 ```php
 
@@ -61,7 +51,7 @@ class HandleInertiaRequests extends Middleware
 ```
 
 
-4.Register notification in base controller  App\Http\Controllers\Controller
+3.Register notification in base controller  App\Http\Controllers\Controller its optional
 
 ```php
 <?php
@@ -76,7 +66,6 @@ class Controller extends BaseController
 }
 
 ```
-
 
 
 4.import Toast Notification component in main layout 
@@ -101,7 +90,7 @@ class Controller extends BaseController
 Create notification in any controller  
 
 ```php
-    <?php
+<?php
 
 namespace App\Http\Controllers;
 
@@ -109,6 +98,9 @@ namespace App\Http\Controllers;
 class AdmissionController extends Controller
 {
     public function store() {
+    
+        // this code available when 
+        // 3.Register notification in base controller  App\Http\Controllers\Controller its optional
         $this->success('message');
         $this->error('message');
         $this->warning('message');
