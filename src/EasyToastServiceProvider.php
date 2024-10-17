@@ -12,11 +12,10 @@ class EasyToastServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
         // Publish Vue.js or JS files
         $this->publishes([
             __DIR__ . '/../resources/js' => resource_path('js'),
-        ], 'assets');
+        ], 'Bharat\EasyToast\EasyToastServiceProvider');
     }
 
     /**
